@@ -15,6 +15,10 @@
                     android:id="@+id/pregunta_layout"
                     android:icon="@drawable/ic_baseline_add_task_24"
                     android:title="@string/pregunta_layout" />
+                <item
+                    android:id="@+id/registro_layout"
+                    android:icon="@drawable/ic_baseline_attribution_24"
+                    android:title="@string/registro_layout"/>
             </menu>
         </item>
     </group>

@@ -47,6 +47,10 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
                 startActivity(Intent (this, Saludo::class.java))
                 startActivity(Intent(this,Pregunta::class.java))
             }
+            R.id.registro_layout->{
+                startActivity(Intent(this,Repuesta_Registro_Per::class.java))
+                startActivity(Intent(this,Registro::class.java))
+            }
 
         }
         drawer.closeDrawer(GravityCompat.START)
