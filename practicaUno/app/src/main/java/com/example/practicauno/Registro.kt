@@ -26,7 +26,7 @@ class Registro : AppCompatActivity() {
         persona.correo =binding.PerCorreo.text.toString()
         if(persona.nombre.isNotEmpty() && persona.apellido.isNotBlank() && persona.correo != ""){
             val intent= Intent(this, Repuesta_Registro_Per::class.java)
-            intent.putExtra("DATOS",persona.toString())
+            intent.putExtra("DATOS",persona)
             startActivity(intent)
         }else{
             Toast.makeText(this,"Necesito algun dato", Toast.LENGTH_SHORT).show()
