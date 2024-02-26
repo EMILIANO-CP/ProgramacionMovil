@@ -42,8 +42,10 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
         when(item.itemId){
             R.id.contraint_layout->{
                 startActivity(Intent(this,ConstraintActivity::class.java))
-                startActivity(Intent(this,Pregunta::class.java))
+            }
+            R.id.pregunta_layout->{
                 startActivity(Intent (this, Saludo::class.java))
+                startActivity(Intent(this,Pregunta::class.java))
             }
 
         }

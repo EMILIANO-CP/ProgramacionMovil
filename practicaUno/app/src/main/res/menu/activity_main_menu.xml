@@ -12,7 +12,7 @@
                     android:icon="@drawable/ic_baseline_description_24"
                     android:title="@string/constraint_layout" />
                 <item
-                    android:id="@+id/Pregunta"
+                    android:id="@+id/pregunta_layout"
                     android:icon="@drawable/ic_baseline_add_task_24"
                     android:title="@string/pregunta_layout" />
             </menu>
