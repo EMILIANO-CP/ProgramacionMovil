@@ -14,16 +14,16 @@ class Repuesta_Registro_Per : AppCompatActivity() {
         binding.respRegBtnRegresar.setOnClickListener{
             onBackPressedDispatcher.onBackPressed()
         }
-        //fun
+        action()
     }
     private fun action(){
         val bundle= intent.extras
         val datos_persona = bundle?.getSerializable("DATOS") as Persona
         val msj_nombre:TextView=findViewById(R.id.resp_reg_nombre)
-        val msj_apellido:TextView=findViewById(R.id.resp_reg_apellido)
-        val msj_correo:TextView=findViewById(R.id.resp_reg_correo)
         msj_nombre.text="NOMBRE: " + datos_persona.nombre
+        val msj_apellido:TextView=findViewById(R.id.resp_reg_apellido)
         msj_apellido.text="APELLIDOS: " + datos_persona.apellido
+        val msj_correo:TextView=findViewById(R.id.resp_reg_correo)
         msj_correo.text="E-MAIL: " + datos_persona.correo
     }
 }
