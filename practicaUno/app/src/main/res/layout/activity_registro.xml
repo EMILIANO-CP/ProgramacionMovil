@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+    <EditText
+        android:id="@+id/Per_Apellido"
+        android:layout_width="300dp"
+        android:hint="@string/msgDos"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autofillHints="surname"
+        android:inputType="text"
+        android:layout_marginTop="-50dp"/>
+    <EditText
+        android:id="@+id/Per_Nombre"
+        android:layout_width="300dp"
+        android:hint="@string/msgUno"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autofillHints="name"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/Per_Correo"
+        android:layout_width="300dp"
+        android:hint="@string/msgTres"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autofillHints="name"
+        android:inputType="text"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/Per_Boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iniciar"
+        android:layout_gravity="bottom|center_horizontal"/>
+
+</FrameLayout>
