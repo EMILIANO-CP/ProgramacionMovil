@@ -51,6 +51,9 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
                 startActivity(Intent(this,Repuesta_Registro_Per::class.java))
                 startActivity(Intent(this,Registro::class.java))
             }
+            R.id.nestedScrollView->{
+                startActivity(Intent(this,NestedScrollViewActivity::class.java))
+            }
 
         }
         drawer.closeDrawer(GravityCompat.START)

@@ -19,6 +19,11 @@
                     android:id="@+id/registro_layout"
                     android:icon="@drawable/ic_baseline_attribution_24"
                     android:title="@string/registro_layout"/>
+                <item
+                    android:id="@+id/nestedScrollView"
+                    android:icon="@drawable/ic_baseline_description_24"
+                    android:title="@string/nestedscrollview" />
+
             </menu>
         </item>
     </group>
